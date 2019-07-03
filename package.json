@@ -1,0 +1,24 @@
+{
+  "name": "material-management-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension for Material Management Testing",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify content.js -o bundle.js"
+    , "watch": "watchify content.js -o bundle.js"
+  },
+  "author": "Pedro Arnoldo Machado Duran",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-sendkeys": "^4.0.0",
+    "moment": "^2.24.0",
+    "selenium-webdriver": "^4.0.0-alpha.4",
+    "uniq": "^1.0.1",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  }
+}
